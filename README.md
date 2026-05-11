@@ -46,6 +46,10 @@ Este proyecto consiste en el rediseño de la página web de la Municipalidad de 
 │
 └── README.md
 
+## Vista previa
 
+![Vista previa del proyecto](imagenes/preview.png)
 
-https://estudianteipss.github.io/evaluacionfrontendnumero2/
+## 🌐 Proyecto en vivo
+
+👉 Visita la página aquí: [https://estudianteipss.github.io/evaluacionfrontendnumero2/]
