@@ -1,0 +1,255 @@
+:root{
+
+    --topbar:#121518;
+    --primary:#2598c9;
+    --primary-dark:#09455d;
+
+    --light:#f5f7fa;
+    --white:#ffffff;
+
+    --radius:18px;
+
+}
+
+
+/* =========================
+   GLOBAL
+========================= */
+
+html{
+    scroll-behavior:smooth;
+    font-size: 16px; /* base */
+}
+
+body{
+
+    margin:0;
+    padding:0;
+
+    overflow-x:hidden;
+
+    font-family:'Segoe UI',sans-serif;
+
+    background:var(--light);
+    color:#222;
+
+}
+
+body,
+p,
+li,
+span {
+    color: #111;
+}
+
+.title,
+.subtitle,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+
+
+/* =========================
+   TOPBAR
+========================= */
+
+.accessibility-tools {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.topbar{
+
+    background:var(--topbar);
+
+    padding:.7rem 0;
+
+    border-bottom:
+    1px solid rgba(255,255,255,.08);
+
+}
+
+.topbar-content{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.top-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-right:1rem;
+
+    transition:.3s ease;
+
+}
+
+.top-links a:hover{
+    opacity:.7;
+}
+
+/* =========================
+   REDES
+========================= */
+
+.social-icons{
+
+    display:flex;
+    align-items:center;
+    gap:.7rem;
+
+}
+
+.social-icons a{
+
+    color:white;
+
+    transition:.3s ease;
+
+}
+
+.social-icons a:hover{
+    opacity:.7;
+}
+
+.social-label{
+
+    color:white;
+
+    opacity:.85;
+
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.main-navbar{
+
+    background:var(--primary);
+
+    padding:1rem 0;
+
+    transition:.3s ease;
+
+    z-index:999;
+
+}
+
+.main-logo{
+    max-height:70px !important;
+}
+
+.main-navbar .navbar-item{
+
+    color:white !important;
+
+    font-weight:600;
+
+    transition:.3s ease;
+
+}
+
+.main-navbar .navbar-item:hover{
+
+    background:transparent !important;
+
+    color:#d6eef8 !important;
+
+}
+
+.navbar-burger{
+    color:white;
+}
+
+.navbar-burger.is-active{
+    color:white;
+}
+
+/* =========================
+   NAVBAR FIXED
+========================= */
+
+.navbar-fixed{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    animation:slideDown .3s ease;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,.15);
+
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero-main{
+
+    position:relative;
+
+    overflow:hidden;
+
+    min-height:85vh;
+
+    display:flex;
+    align-items:center;
+
+    background:
+    url('imagenes/muni.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.45)
+    );
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:720px;
+
+}
+
+.no-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.no-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
