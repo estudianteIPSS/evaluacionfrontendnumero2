@@ -6,7 +6,19 @@ Este proyecto consiste en el rediseño de la página web de la Municipalidad de 
 
 ---
 
-## Tecnologías utilizadas
+## 🌐 Proyecto en vivo
+
+👉 [Ver sitio web en vivo](https://estudianteipss.github.io/evaluacionfrontendnumero2/)
+
+---
+
+## 🖼 Vista previa
+
+![Preview del proyecto](https://raw.githubusercontent.com/estudianteipss/evaluacionfrontendnumero2/main/imagenes/preview.png)
+
+---
+
+## 🛠 Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -16,7 +28,7 @@ Este proyecto consiste en el rediseño de la página web de la Municipalidad de 
 
 ---
 
-## Características del proyecto
+## ✨ Características del proyecto
 
 - Diseño responsive para móviles y escritorio
 - Navbar con menú hamburguesa funcional
@@ -30,7 +42,7 @@ Este proyecto consiste en el rediseño de la página web de la Municipalidad de 
 
 ---
 
-## Estructura de archivos
+## 📁 Estructura de archivos
 
 ```bash
 /
@@ -45,11 +57,3 @@ Este proyecto consiste en el rediseño de la página web de la Municipalidad de 
 ├── /imagenes
 │
 └── README.md
-
-## Vista previa
-
-![Vista previa del proyecto](imagenes/preview.png)
-
-## 🌐 Proyecto en vivo
-
-👉 Visita la página aquí: [https://estudianteipss.github.io/evaluacionfrontendnumero2/]
